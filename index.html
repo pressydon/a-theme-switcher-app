@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Theme switcher 2</title>
+</head>
+<body>
+    
+    <div class="container"> 
+        <div class="title-row">
+          <h1 class="flex-1">Choose your theme</h1>
+          <div class="font">
+            <label for="font">Font</label>
+            <select class="js-font-select" data-theme-value="--body-font">
+              <option value="" selected>Choose a font</option>
+              <option value="Helvetica, arial, sans-serif">
+                Sans-serif
+              </option>
+              <option value="Monaco, mono-space">Monospace</option>
+              <option value="Georgia, serif">Serif</option>
+            </select>
+          </div>
+          
+          <div class="text-color">
+            <label for="text_color">Text Color</label>
+            <input type="color" id="text_color" class="js-text-color-picker" data-theme-value="--text-color" />
+          </div>
+          
+          <div class="bg-color">
+          <label for="background_color">Background Color</label>
+          <input type="color" id="background_color" class="js-bg-color-picker" data-theme-value="--background-color" />
+          </div>
+        </div>
+        
+        <div class="card-grid">
+          <div class="card">
+            <img src="https://images.unsplash.com/photo-1549364045-a2af4ed991aa?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0NTg5fQ" />
+            <div class="card-content">
+              <h3>Card title</h3>
+              <p>Card description of some type. And more content that wraps two lines</p>
+            </div>
+          </div>
+      
+          <div class="card">
+            <img src="https://images.unsplash.com/photo-1547938854-bb77f0d27104?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0NTg5fQ" />
+            <div class="card-content">
+              <h3>Card title</h3>
+              <p>Card description of some type. And more content that wraps two lines</p>
+            </div>
+          </div>
+      
+          <div class="card">
+            <img src="https://images.unsplash.com/photo-1547357478-da77cd2b4ab9?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0NTg5fQ" />
+            <div class="card-content">
+              <h3>Card title</h3>
+              <p>Card description of some type. And more content that wraps two lines</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <script src="sandbox.js"></script>
+</body>
+</html>

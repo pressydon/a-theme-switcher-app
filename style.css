@@ -1,0 +1,46 @@
+:root{
+    --body-font: Helvetica, Arial, sans-serif;
+    --background-color:#ffffff;
+    --text-color:#333333;
+}
+body{
+    font-family:var(--body-font) ;
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+.container{
+    max-width: 80em;
+    margin: 4rem auto;
+}
+.title-row{
+ display:flex;  
+ align-items: center;
+ justify-content: space-between;
+ border-bottom: 1px solid #ebebeb;
+ margin-bottom: 20px;
+}
+.flex-1{
+    flex: 1;
+}
+.font,
+.text-color{
+    margin-right: 32px;
+}
+.card-grid{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.card{
+    max-width: 360px;
+    border: 1px solid #ebebeb
+}
+img{
+    max-width: 100%;
+}
+p{
+    line-height: 1.5;
+}
+.card-content{
+    padding: 0 10px;
+}
